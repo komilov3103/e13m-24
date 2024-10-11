@@ -6,6 +6,16 @@ public class Car {
     private boolean sold;
     private String model;
 
+    public Car(int releaseYear, String color, boolean sold){
+        this.releaseYear = releaseYear;
+        this.color = color;
+        this.sold = sold;
+    }
+
+    public Car(){
+
+    }
+
     public int getReleaseYear() {
         return releaseYear;
     }
